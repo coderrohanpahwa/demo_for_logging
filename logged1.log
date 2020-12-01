@@ -1,0 +1,28 @@
+2020-12-01 09:12:05,124 -- 127.0.0.1
+2020-12-01 09:12:50,322--127.0.0.1
+2020-12-01 09:13:34,548--127.0.0.1
+2020-12-01 09:14:21,372--127.0.0.1GET
+2020-12-01 09:14:23,775--127.0.0.1GET
+2020-12-01 09:14:32,983--127.0.0.1GET
+2020-12-01 09:14:40,047--127.0.0.1GET
+2020-12-01 09:15:13,749--127.0.0.1GET
+2020-12-01 09:15:30,418--127.0.0.1GETAnonymousUser
+2020-12-01 09:17:05,539--127.0.0.1GETAnonymousUser
+2020-12-01 09:17:20,807--127.0.0.1GETAnonymousUser
+2020-12-01 09:20:30,587--127.0.0.1GETAnonymousUser
+2020-12-01 09:21:49,788--127.0.0.1GETAnonymousUser
+2020-12-01 09:24:42,022--127.0.0.1POSTrohan
+Traceback (most recent call last):
+  File "/home/rohan/Expand My Business/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/rohan/Expand My Business/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rohan/Expand My Business/myproject/app/views.py", line 17, in index
+    return render(request,'app/index.html',{'form':fm})
+UnboundLocalError: local variable 'fm' referenced before assignment
+2020-12-01 09:25:03,063--127.0.0.1POSTrohan
+2020-12-01 09:28:18,256--127.0.0.1POSTrohan
+2020-12-01 09:31:42,608--127.0.0.1GETrohandjango.request
+2020-12-01 09:31:59,060--127.0.0.1GETrohandjango.utils.autoreload
+2020-12-01 09:32:07,191--127.0.0.1GETrohan   django.request
+2020-12-01 09:41:42,874--127.0.0.1GETrohan   django.request
